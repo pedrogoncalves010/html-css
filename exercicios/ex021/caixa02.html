@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body{
+        background-color: rgb(110, 110, 110);
+        margin: 0px;
+    }
+    header{
+        background-color: white;
+        padding: 10px;
+        margin:auto;
+        border-radius: 5px;
+    }
+    main{
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        min-width: 320px;
+        max-width: 800px;
+        margin:auto;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        padding: 1px;
+        
+    }
+    article{
+        background-color: lightgray;
+        padding: 8px;
+    }
+    aside{
+        background-color: rgb(185, 185, 185);
+    }
+    nav{
+        background-color: grey;
+        box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.651);
+    }
+    nav > a{
+        color: white;
+        font-weight:bold;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+        color:aquamarine;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, perspiciatis libero qui asperiores eos reprehenderit provident similique repellat maiores deserunt consectetur illum explicabo cumque amet esse nulla ea vel minus!</p>
+                <aside>
+                    <p>Artigo escrito por José da silva</p>
+                </aside>
+            </article>
+            <picture>
+                <source media="(max-width: 800px)" srcset="irina-blok-pq.jpg">
+                <img src="irina-blok.jpg" alt="irina">
+            </picture>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Brasil</p>
+    </footer>
+</body>
+</html>

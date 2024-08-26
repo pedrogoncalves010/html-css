@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Explorando Carros</title>
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.featured-car {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+}
+
+.featured-car img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.car-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #eee;
+    padding: 40px 20px;
+}
+
+.car-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.car-card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.details-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explorando Carros</h1>
+        <p>Descubra a emoção de dirigir os melhores carros do mundo.</p>
+    </header>
+
+    <section class="featured-car">
+        <img src="carro_destaque.jpg" alt="Carro Destaque">
+        <h2>Carro do Ano</h2>
+        <p>O carro do ano é um modelo incrível que combina elegância, desempenho e tecnologia de ponta.</p>
+        <a href="#saiba-mais">Saiba Mais</a>
+    </section>
+
+    <section id="car-list" class="car-list">
+        <div class="car-card">
+            <img src="carro1.jpg" alt="Carro 1">
+            <h3>Modelo A</h3>
+            <p>Um carro esportivo elegante com um design aerodinâmico.</p>
+            <a href="#saiba-mais">Saiba Mais</a>
+        </div>
+
+        <div class="car-card">
+            <img src="carro2.jpg" alt="Carro 2">
+            <h3>Modelo B</h3>
+            <p>Um carro de luxo com tecnologia avançada e conforto incomparável.</p>
+            <a href="#saiba-mais">Saiba Mais</a>
+        </div>
+
+        <div class="car-card">
+            <img src="carro3.jpg" alt="Carro 3">
+            <h3>Modelo C</h3>
+            <p>Um SUV robusto projetado para aventuras urbanas e fora de estrada.</p>
+            <a href="#saiba-mais">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="saiba-mais" class="details-section">
+        <h2>Saiba Mais</h2>
+        <p>Explore detalhes emocionantes sobre cada modelo de carro e descubra o que faz deles os melhores na categoria.</p>
+        <a href="#car-list">Voltar para a Lista</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Explorando Carros</p>
+    </footer>
+</body>
+</html>
