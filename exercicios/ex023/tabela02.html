@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+    <style>
+        td, th{
+            padding:10px;
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 450px;
+            font-family: 'Courier New', Courier, monospace;
+            margin: auto;
+            
+            
+        }
+        thead{
+            background-color: grey;
+            color: white;
+        }
+        tbody > tr:nth-child(odd) /* odd or even */{
+            background-color: rgb(219, 219, 219);
+        }
+        .foot{
+            background-color: grey;
+            color: white;
+        
+        
+           
+        }
+    
+        
+        .num{
+            text-align: right;
+        }
+        caption{
+            padding: 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+            background-color: rgb(219, 219, 219);
+            color: black;
+            border: 1px solid black;
+            border-bottom: 0em;
+            border-radius: 10px 10px 0px 0px;
+          
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong>População das unidades federativas</strong></caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead> 
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>São Paulo</td>
+                <td class="num">45.900.000</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Minas Gerais</td>
+                <td class="num">21.300.000</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.200.000</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Bahia</td>
+                <td class="num" >14.800.000</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Paraná</td>
+                <td class="num" >11.800.000</td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Rio Grande do Sul</td>
+                <td class="num" >11.200.000</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>Pernambuco</td>
+                <td class="num" >9.500.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="foot">
+                <th colspan="2" scope="row">Total</th>
+                <td class=""><strong>131.700.000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
