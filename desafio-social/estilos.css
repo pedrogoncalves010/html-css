@@ -31,3 +31,29 @@ main{
     width: 500px;
     
 }
+iframe{
+    position: relative;
+    top: 63px;
+    left: 143px;
+    width: 215px;
+    height: 377px;
+}
+
+#app img{
+    width: 45px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.575);
+    box-sizing: border-box;
+    
+    
+}
+#app{
+    text-align: right;
+}
+#app img:hover{
+    border: 1px solid white;
+    transform: translate(-3px, -3px);
+    transition: 0.3s, border 0.7s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.836);
+} 
